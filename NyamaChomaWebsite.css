@@ -26,9 +26,6 @@
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     scroll-behavior: auto;
     visibility: hidden;
-    
-   
-    
 }
 .home.active {
     left: 0;
@@ -55,9 +52,6 @@
     margin-top: 20px;
     
 }
-
-   
-
 
 #menu {
     font-size: 2rem;
@@ -408,7 +402,7 @@ table tr td {
 
 /*cart*/
 .cart {
-    position: fixed;
+    position: relative;
     top: 0;
     right: -1000%;
     width: 360px;

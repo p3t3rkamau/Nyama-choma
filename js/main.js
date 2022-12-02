@@ -89,22 +89,47 @@ closeSign.onclick = () => {
 };
 
 
-let homeicon = document.querySelector('#home')
-let home = document.querySelector('.home')
-let closehome = document.querySelector('#close-home')
+let mapicon = document.querySelector('#directions')
+let map = document.querySelector('.map')
+let closemap = document.querySelector('#close-map')
 
-homeicon.onclick = () => {
-    home.classList.add("active")
+mapicon.onclick = () => {
+    map.classList.add("active")
     sign.classList.remove("active");
     meal.classList.remove("active");
     login.classList.remove("active");
     cart.classList.remove("active");
     sw.classList.remove("active");
+    About.classList.remove("active");
    
 };
-closehome.onclick = () => {
-    home.classList.remove("active");
+closemap.onclick = () => {
+    map.classList.remove("active");
 };
+
+let abouticon = document.querySelector('#about')
+let About = document.querySelector('.About')
+let closeAbout = document.querySelector('#close-about')
+
+abouticon.onclick = () => {
+    About.classList.add("active")
+    sign.classList.remove("active");
+    meal.classList.remove("active");
+    login.classList.remove("active");
+    cart.classList.remove("active");
+    sw.classList.remove("active");
+    home.classList.remove('active')
+   
+};
+closeAbout.onclick = () => {
+    About.classList.remove("active");
+};
+
+let myAccountIcon = document.getElementById('my-account');
+
+myAccountIcon.onclick = () => {
+    alert('You dont have an account')
+}
 
 
 if (document.readyState == "loading") {
@@ -183,7 +208,7 @@ function addProductToCart(title, price, productImg) {
 var cartBoxContent = `
 <img class="cart-img" src="${productImg}"></img>
 <div class="detail-box">
-    <div class="cart-product-title">${title}</div>
+    <h2 class="cart-product-title">${title}</h2>
     <div class="cart-price">${price}</div>
     <input type="number" value="1" class="cart-quantity"/>
 </div>
@@ -204,12 +229,12 @@ function updatetotal() {
         var cartBox = cartBoxes[i];
         var priceElement = cartBox.getElementsByClassName('cart-price')[0];
         var quantityElement = cartBox.getElementsByClassName('cart-quantity')[0];
-        var price = parseFloat(priceElement.innerText.replace("$",""));
+        var price = parseFloat(priceElement.innerText.replace("Ksh",""));
         var quantity = quantityElement.value;
         total = total + price * quantity;
     }
     total = Math.round(total * 100) / 100;
 
-    document.getElementsByClassName('total-price')[0].innerText = '$' + total;
+    document.getElementsByClassName('total-price')[0].innerText = 'Ksh' + total;
     
 }
