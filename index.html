@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nyama choma website</title>
+    <link rel="stylesheet" type="text/css" href="a.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <i class='bx bx-menu' id="menu"></i>
+            <i class='bx bx-bowl-hot' id="mealicon">
+                <li>menu</li>
+            </i>
+
+            <i class='bx bx-book-open' id="sign">
+                <li>sign-in</li>
+            </i>
+            <i class='bx bx-shopping-bag' id="cart-icon">
+                <li>Cart</li>
+            </i>
+           
+                <div class="sw">
+                    <div>
+                        <i class='bx bx-x' id="close-window"></i>
+                    </div>
+                    <div>
+                        <a href="#" target="_self"><i class='bx bx-home-alt-2' id="home">Home</i><br></a>
+                    </div>
+                    <div>
+                        <i class='bx bx-food-menu' id="about">About us</i><br>
+                    </div>
+                    <div>
+                        <i class='bx bx-map' id="directions">Directions</i>
+                    </div>
+                    <div>
+                        <a href="#special-offer"><i class='bx bxs-offer' id="offers">Special offers</i></a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-user-circle' id="my-account">My-account</i>
+                    </div>
+                </div>
+                <div class="sign">
+                    <div class="outsyd-border">
+                        <i class='bx bx-x' id="close-sign"></i>
+                        <div id="heading">
+                            <h3>Register</h3>
+                        </div>
+                        <div class="">
+                            <form class="input" action="" method="post" autocomplete="off">
+                                <input type="text" name="name" id = "name" placeholder="Name" required value=""> <br>
+                                <input type="text" name="username" id = "name" placeholder="Username" required value=""> <br>
+                                <input type="email" name="email" id = "name" placeholder="Email" required value=""> <br>
+                                <input type="password" name="password" id = "name" placeholder="Password" required value=""> <br>
+                                <input type="password" name="confirmpassword" id = "name" placeholder="Confirm password" required value=""> <br>
+                                <button type="submit" class="btn" name="submit">Submit</button>
+                                <button type="button" class="btn2">Login</button>
+                            </form>
+                        </div>   
+                    </div>            
+                </div>
+
+
+                <div class="meal">
+                    <div>
+                        <i class='bx bx-x' id="close-meal"></i>
+                        <div>
+                            <table height="500" width="700">
+                                <caption>Meal of the day</caption>
+                                <tr class="time">
+                                    <td>Meal</td>
+                                    <td>Morning</td>
+                                    <td>Lunch</td>
+                                    <td>Evening</td>
+                                </tr>
+                                <tr>
+                                    <td>Pork</td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Fish</td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Cow</td>
+                                    <td></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Goat</td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td><i class='bx bx-check'></i></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="border">
+                        <i class='bx bx-x' id="close-login"></i>
+                        <div class="heading">
+                          <p>Login</p>
+                        </div>
+                        <div class="form">
+
+                            <form class="form" action="" method="post" autocomplete="off">
+                                <div>
+                                    <div class="inputemail">
+                                        <input type="text" name="usernameemail"  class="login-structure" id = "usernameemail"  placeholder="Username or Email" required value=""> <br>
+                                    </div>
+                                    <div class="input">
+                                        <input type="password" name="password"  class="login-structure" id = "password" placeholder="Password" required value=""> <br>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="submit-btn" name="submit">Log-in</button>
+                                    </div>
+                                </div>  
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="map">
+                    <div class="open-map">
+                        <i class='bx bx-x' id="close-map" ></i>
+                        <h2>Steve nyama choma base location</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.983751855769!2d36.8387631875989!3d-1.1719244949886214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3c418dc1fa85%3A0x442327968d90f465!2sKirigiti%20Bus%20Station!5e0!3m2!1sen!2ske!4v1669491857276!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        
+                        
+                        </div>
+                  
+                    </div>
+
+                </div>
+                
+                <div class="About">
+                    <div class="open-about">
+                        <i class='bx bx-x' id="close-about"></i>
+                        
+                        <div class="home-container">
+                            <div class="home-description">
+                                <h2>STEVE NYAMA CHOMA</h2>
+                                <p> 
+                                       Our hotel is in Kirigiti town along kiambu road near shell petrol station.<br>
+                                                steve nyama choma base is such an ambience enviroment 
+                                                     and one of the most delectable nyama choma base.
+                                </p>
+                                <p>
+                                    The setting of the restauraunt of the restaurauntis set in a way that,you feel Welcomed<br>
+                                    and at home.the staff are friendly and warm welcoming.our meat is always fresh and tender<br>
+                                    you will rarely get enough of it especially after a long drive and a quick stopover on our base<br>
+                                </p>
+                                <p>
+                                               At steve nyama choma base we have the sweetest nyama choma of all time<br>
+                                    the prices are quite affordable for everyone to afford but the moment you finish eating the choma you<br>
+                                     will just end up tipping the cool and warm welcoming waiters         
+                                </p>
+                                <p>
+                                    Ever heard of,put your money where your mouth is.This is quintessential of the saying 
+                                </p>
+                            </div>
+                            <section class="contact-info">
+                                <h2>
+                                    Talk to us
+                                </h2>
+                                <p>
+                                    <strong>Phone no: </strong>0795 820 643
+                                </p>
+                                <p>
+                                    <strong>Email: </strong>Stevenyamachoma@gmail.com
+                                </p>
+                                <p>
+                                    <strong>Address: </strong>Kiambu,Kirigiti
+                                </p>
+                                <p>
+                                    <strong>Order helpline: </strong>0701 234 567
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                <div class="cart-content">   
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">ksh0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>    
+    </header>
+    <section class="shop-container">
+      <div class="advert-background">
+        <h2 class="section-title">Steve nyama choma</h2>
+        <p class="advert">
+            An oasis of tranquility and quitude our nyama choma comes in your favourite<br>
+                              Goat,beef,pork and fish  
+        
+        </p>
+        <img src="images/new/kenny-eliason-8Cerf3zW8hA-unsplash.jpg"  class="advert-image">
+       
+        <div class="categories">
+            <ul class="mini-category">
+                <li><a href="pork.html">Pork</a></li>
+                <li><a href="beef.html">Beef</a></li>
+                <li><a href="chicken.html">Chicken</a></li>
+                <li><a href="goat.html">Goat</a></li>
+                <li><a href="fish.html">Fish</a></li>
+            </ul>
+        </div>
+        <div class="offer-of-the-day">
+            <h2>Meal of the day</h2>
+        </div>
+      </div>
+        <div class="shop-contents">
+
+            <div class="product-box">
+                <img src="images/aa.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nyama choma</h2>
+                <span class="price">Ksh20</span>
+                <button class="add-cart">add to cart</button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/cc.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hot skewers</h2>
+                <span class="price">Ksh30</span>
+                 <button class="add-cart">
+                    
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/j.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fried Chicken</h2>
+                <span class="price">Ksh40</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/dd.jpg" alt="" class="product-img">
+                <h2 class="product-title">PeriPeri Chicken </h2>
+                <span class="price">Ksh150</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ee.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled meat</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ff.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ugali kachumbari and african nyama choma</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+           
+            <div class="product-box">
+                <img src="images/w.jpg" alt="" class="product-img">
+                <h2 class="product-title">Tandori chicken</h2>
+                <span class="price">Ksh100</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/tr.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled smoked sausage</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+      
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        
+
+           <!-- add new images -->
+
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="section">
+            <div class="rec">
+                <h2>Recomended</h2>
+            </div>
+        </div>
+      
+        <div class="shop-contents">
+
+            <div class="product-box">
+                <img src="images/aa.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nyama choma</h2>
+                <span class="price">Ksh20</span>
+                <button class="add-cart">add to cart</button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/cc.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hot skewers</h2>
+                <span class="price">Ksh30</span>
+                 <button class="add-cart">
+                    
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/j.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fried Chicken</h2>
+                <span class="price">Ksh40</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/dd.jpg" alt="" class="product-img">
+                <h2 class="product-title">PeriPeri Chicken </h2>
+                <span class="price">Ksh150</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ee.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled meat</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ff.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ugali kachumbari and african nyama choma</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+           
+            <div class="product-box">
+                <img src="images/w.jpg" alt="" class="product-img">
+                <h2 class="product-title">Tandori chicken</h2>
+                <span class="price">Ksh100</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/tr.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled smoked sausage</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+      
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        
+
+           <!-- add new images -->
+
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="favourites">
+            <h2>Your favourites</h2>
+        </div>
+        <div class="shop-contents">
+
+            <div class="product-box">
+                <img src="images/aa.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nyama choma</h2>
+                <span class="price">Ksh20</span>
+                <button class="add-cart">add to cart</button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/cc.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hot skewers</h2>
+                <span class="price">Ksh30</span>
+                 <button class="add-cart">
+                    
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/j.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fried Chicken</h2>
+                <span class="price">Ksh40</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/dd.jpg" alt="" class="product-img">
+                <h2 class="product-title">PeriPeri Chicken </h2>
+                <span class="price">Ksh150</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ee.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled meat</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ff.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ugali kachumbari and african nyama choma</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+           
+            <div class="product-box">
+                <img src="images/w.jpg" alt="" class="product-img">
+                <h2 class="product-title">Tandori chicken</h2>
+                <span class="price">Ksh100</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/tr.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled smoked sausage</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+                <a name="special-offer"></a>
+            </div>
+      
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        
+
+           <!-- add new images -->
+
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="section">
+            <div class="rec">
+            <h2>Special offers</h2>
+            </div>
+        </div>
+      
+        <div class="shop-contents">
+
+            <div class="product-box">
+                <img src="images/aa.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nyama choma</h2>
+                <span class="price">Ksh20</span>
+                <button class="add-cart">add to cart</button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/cc.jpg" alt="" class="product-img">
+                <h2 class="product-title">Hot skewers</h2>
+                <span class="price">Ksh30</span>
+                 <button class="add-cart">
+                    
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/j.jpg" alt="" class="product-img">
+                <h2 class="product-title">Fried Chicken</h2>
+                <span class="price">Ksh40</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/dd.jpg" alt="" class="product-img">
+                <h2 class="product-title">PeriPeri Chicken </h2>
+                <span class="price">Ksh150</span>
+               <button class="add-cart">
+                   
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ee.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled meat</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/ff.jpg" alt="" class="product-img">
+                <h2 class="product-title">Ugali kachumbari and african nyama choma</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+           
+            <div class="product-box">
+                <img src="images/w.jpg" alt="" class="product-img">
+                <h2 class="product-title">Tandori chicken</h2>
+                <span class="price">Ksh100</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/tr.jpg" alt="" class="product-img">
+                <h2 class="product-title">Grilled smoked sausage</h2>
+                <span class="price">Ksh50</span>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+      
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        
+
+           <!-- add new images -->
+
+            <div class="product-box">
+                <img src="images/bb.jpg" alt="" class="product-img">
+                <h2 class="product-title">Beef satay</h2>
+                <span class="price">Ksh50</span>
+                 <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Steve nyama choma</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Order status</a></li>
+                            <li><a href="#">Payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Online shop</h4>
+                        <ul>
+                            <li><a href="#">Pork</a></li>
+                            <li><a href="#">Beef</a></li>
+                            <li><a href="#">Fish</a></li>
+                            <li><a href="#">Chicken</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class='bx bxl-gmail'></i> </a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-youtube' ></i></a>
+                            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+
+                        </div>
+                        <ul><a href="#"></a></ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
